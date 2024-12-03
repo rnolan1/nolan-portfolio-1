@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.44 56.76">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: 1.43px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-4 {
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 8px;
+        font-weight: 800;
+      }
+
+      .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 0 .42 5.95;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.7px;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(0 54.31)"><tspan x="0" y="0">ANIM</tspan><tspan class="cls-1" x="23.55" y="0">A</tspan><tspan x="29.22" y="0">TION</tspan></text>
+  <g>
+    <g>
+      <circle class="cls-5" cx="25.72" cy="22.18" r="12.2"/>
+      <circle class="cls-2" cx="25.72" cy="22.18" r="17.11"/>
+      <circle class="cls-3" cx="25.72" cy="22.15" r="20.28"/>
+    </g>
+    <path class="cls-5" d="M27.93,1.57L25.28.05c-.22-.13-.5.03-.5.29v3.06c0,.26.28.42.5.29l2.65-1.53c.22-.13.22-.45,0-.58Z"/>
+    <path class="cls-5" d="M46.29,23.95l1.53-2.65c.13-.22-.03-.5-.29-.5h-3.06c-.26,0-.42.28-.29.5l1.53,2.65c.13.22.45.22.58,0Z"/>
+    <path class="cls-5" d="M23.52,42.72l2.65,1.53c.22.13.5-.03.5-.29v-3.06c0-.26-.28-.42-.5-.29l-2.65,1.53c-.22.13-.22.45,0,.58Z"/>
+    <path class="cls-5" d="M5.15,20.26l-1.53,2.65c-.13.22.03.5.29.5h3.06c.26,0,.42-.28.29-.5l-1.53-2.65c-.13-.22-.45-.22-.58,0Z"/>
+  </g>
+</svg>
