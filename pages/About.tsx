@@ -1,14 +1,18 @@
 import Headshot from '../assets/RNolan_Headshot_InteractiveWorkshop_thumbnail.jpg'
-import Logo from '../assets/Nolan_Logo.svg'
-import '../About.css'
+import Logo2 from '../assets/Nolan_Logo_exp.svg'
+import './About.css'
 import Resume from '../assets/RNolanResume_2024_Web.pdf'
+import Degree from '../assets/icon-degree.svg';
+import Exp from '../assets/icon-exp.svg';
+import Animate from '../assets/icon-animation.svg';
+import Draw from '../assets/icon-illustrate.svg';
 
 function About() {
     return (
     <>
-      <div className="Logo">
-        <a href="app.tsx"><img src={Logo}/></a>
-      </div>
+    <div className="LogoHeader">
+      <img src={Logo2} />
+    </div>
       <div className="Intro">
         <img src={Headshot}/>
         <div className="IntroCopy">
@@ -20,6 +24,24 @@ function About() {
         <a href= {Resume} target="blank"><p>Check out my resume here!</p></a>
         </div>
       </div>
+      <div className="icons center">
+        <div className="icon degree">
+            <img src={Degree} />
+        </div>
+
+        <div className="icon exp">
+            <img src={Exp} />
+        </div>
+
+        <div className="icon animation">
+            <img src={Animate} />
+        </div>
+
+        <div className="icon illustrate">
+            <img src={Draw} />
+        </div>
+    </div>
+
       <div className="Main">
         <h2>about me</h2>
         <p>I graduated from Maryville University in May 2019 with a BFA in Graphic Design. 
@@ -29,12 +51,12 @@ function About() {
           in a way that is both functional and beautiful is incredibly satisfying! I've always 
           loved learning and luckily I've chosen a field where I can do just that. Whether it's 
           learning about constantly evolving creative technology or client work, I'm always in 
-          the classroom.<br></br>
+          the classroom.<br></br><br />
         The words that best describe my design style are: bold, playful, thoughtful, and versatile. 
         It's such a pleasure to transform visions into reality and I'm committed to getting it right. 
-        I most recently worked as Art Director at Osborn Barr Paramore and am currently seeking a 
-        new adventure! I am available for full-time hire and freelancing. If you're interested in 
-        working together, please don't hesitate to contact me!</p>
+        I most recently worked as Art Director at Osborn Barr Paramore and am currently pursuing a
+        Masters Degree in Interaction & Experience Design! I am available for freelancing. 
+        If you're interested in working together, please don't hesitate to contact me!</p>
       </div>
     </>
     );

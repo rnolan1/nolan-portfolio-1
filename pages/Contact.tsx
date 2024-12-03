@@ -1,15 +1,11 @@
-import Logo from '../assets/Nolan_Logo.svg'
-import '../Contact.css';
+import './Contact.css';
 
 function Contact() {
   return (
     <>
-    <div className="Logo">
-        <a href="app.tsx"><img src={Logo}/></a>
-    </div>
     <div className="contact-form-container">
-      <h1>DON'T BE SHY...</h1>
-      <h2>say hello</h2>
+      <h2 className="contact-subtitle">DON'T BE SHY...</h2>
+      <h1 className="contact-title">say hello</h1>
       <form className="contact-form">
         <div className="form-group">
           <input

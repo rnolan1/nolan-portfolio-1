@@ -1,14 +1,3 @@
-.Logo {
-    max-width: 70px;
-    padding-top: 0em;
-    padding-bottom: 1em;
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
   body {
     margin: 0;
     padding: 0;
@@ -19,23 +8,23 @@
     text-align: center;
     width: 100%;
     max-width: 600px;
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 100px;
     padding: 20px;
   }
   
-  h1 {
-    font-size: 1.5rem;
-    margin: 0;
+  .contact-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
     padding: 0;
-    color: #666;
   }
   
-  h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  .contact-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: -5px;
     padding: 0;
+    color: #666;
   }
   
   .contact-form {
@@ -79,11 +68,12 @@
     font-size: 1rem;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     cursor: pointer;
+    margin-bottom: 30px;
   }
   
   .form-button:hover {
-    background-color: #333;
+    background-color: #ff32b7;
   }
   
