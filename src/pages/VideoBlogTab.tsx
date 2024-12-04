@@ -20,7 +20,7 @@ const VideoBlogTab: React.FC = () => {
         <div className="video-item">
           <iframe
             width="560"
-            height="315"
+            style={{ border: 0 }}
             src={Project3Video}
             title="YouTube video"
             frameBorder="0"

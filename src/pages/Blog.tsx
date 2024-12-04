@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import PhotoBlogTab from './PhotoBlogTab';
 import VideoBlogTab from './VideoBlogTab';
 import CommentForm from './CommentForm';

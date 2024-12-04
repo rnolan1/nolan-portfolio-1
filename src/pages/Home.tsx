@@ -1,6 +1,7 @@
+import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import LogoBar from '../assets/brands_logo-bar.svg';
+import LogoBar from '../assets/Nolan_Logo.svg';
 
 function Home() {
   return (

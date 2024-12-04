@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Project3Video from '../assets/CS60411_Video_Assignment.mp4';
 import './Work.css';
 import AestheticShot from '../assets/RNolan_AestheticShot_InteractiveWorkshop_thumbnail.jpg';
 import Headshot from '../assets/RNolan_Headshot_InteractiveWorkshop_thumbnail.jpg';
 import Passion from '../assets/RNolan_Photo3Composite_InteractiveWorkshop_thumbnail.jpg';
+
 
 function Work() {
   // Define a type for the emoji counts state

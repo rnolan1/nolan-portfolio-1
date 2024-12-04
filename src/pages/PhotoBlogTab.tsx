@@ -1,7 +1,7 @@
 import React from 'react';
-import AestheticShot from '../assets/RNolan_AestheticShot_InteractiveWorkshop_thumbnail.jpg'
-import Headshot from '../assets/RNolan_Headshot_InteractiveWorkshop_thumbnail.jpg'
-import Passion from '../assets/RNolan_Photo3Composite_InteractiveWorkshop_thumbnail.jpg'
+import AestheticShot from '../assets/RNolan_AestheticShot_InteractiveWorkshop_thumbnail.jpg';
+import Headshot from '../assets/RNolan_Headshot_InteractiveWorkshop_thumbnail.jpg';
+import Passion from '../assets/RNolan_Photo3Composite_InteractiveWorkshop_thumbnail.jpg';
 
 const PhotoBlogTab: React.FC = () => {
   return (

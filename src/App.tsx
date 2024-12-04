@@ -1,3 +1,4 @@
+import React from 'react';
 import Logo from './assets/Nolan_Logo.svg';
 import IG from './assets/ig-icon-blk.svg';
 import LI from './assets/li-icon-blk.svg';
@@ -21,19 +22,19 @@ function App() {
           <li className="resume-button">
             <a href= {Resume} target="blank">Resume</a>
           </li>
-          <li><Link to="/Home">Home</Link></li>
-          <li><Link to="/Work">Work</Link></li> 
-          <li><Link to="/Contact">Contact</Link></li>
-          <li><Link to="/About">About</Link></li>
-          <li><Link to="/Blog">Blog</Link></li>
+          <li><Link to="/nolan-portfolio-1/Home">Home</Link></li>
+          <li><Link to="/nolan-portfolio-1/Work">Work</Link></li> 
+          <li><Link to="/nolan-portfolio-1/Contact">Contact</Link></li>
+          <li><Link to="/nolan-portfolio-1/About">About</Link></li>
+          <li><Link to="/nolan-portfolio-1/Blog">Blog</Link></li>
         </ul>
       </nav>
         <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Blog" element={<Blog />} />
-        <Route path="/Work" element={<Work />} />
+        <Route path="/nolan-portfolio-1/Home" element={<Home />} />
+        <Route path="/nolan-portfolio-1/About" element={<About />} />
+        <Route path="/nolan-portfolio-1/Contact" element={<Contact />} />
+        <Route path="/nolan-portfolio-1/Blog" element={<Blog />} />
+        <Route path="/nolan-portfolio-1/Work" element={<Work />} />
       </Routes>
       
       {/* Social Media Links */}
