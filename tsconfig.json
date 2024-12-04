@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "esModuleInterop": true,
+
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        // "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        // "module": "ESNext",
+        // "moduleResolution": "Node",
+        // "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+    },
+    "include": [
+      "src",
+      "custom.d.ts" // or "types/**/*.d.ts" if you put it in a types directory
+    ]
+  }
