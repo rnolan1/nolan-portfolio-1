@@ -1,6 +1,6 @@
 import React from 'react';
 import Headshot from '../assets/RNolan_Headshot_InteractiveWorkshop_thumbnail.jpg';
-import Logo2 from '../assets/Nolan_Logo.svg';
+import Logo2 from '../assets/Nolan_Logo_exp.svg';
 import './About.css';
 import Resume from '../assets/RNolanResume_2024_Web.pdf';
 import Degree from '../assets/icon-degree.svg';
