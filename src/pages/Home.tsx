@@ -16,7 +16,7 @@ function Home() {
           With 5 years of experience in the advertising industry as a <span className="bolded-text">Graphic + Motion Designer</span>, I bring my own unique blend of creativity and technical expertise to the table.
         </p>
         {/* Contact Button */}
-        <button className="cta-button"><Link to="/Contact">let’s connect!</Link></button>
+        <button className="cta-button"><Link to="/nolan-portfolio-1/Contact">let’s connect!</Link></button>
       </section>
 
       {/* Brand Logos */}
