@@ -16,6 +16,7 @@ function Blog(): JSX.Element {
 
   return (
     <div className="Blog">
+      {/* Tab Buttons Setup */}
       <div className="tabs">
         <button
           className={`tab-button ${activeTab === 'photoBlog' ? 'active' : ''}`}
@@ -31,11 +32,12 @@ function Blog(): JSX.Element {
         </button>
       </div>
 
+      {/* Tab Content */}
       <div className="tab-content">
         {activeTab === 'photoBlog' && <PhotoBlogTab />}
         {activeTab === 'videoBlog' && <VideoBlogTab />}
       </div>
-
+      {/* User Comment Form Section */}
       <div className="comment-section">
         <h3>Leave a Comment</h3>
         <CommentForm onSubmit={handleCommentSubmit} />

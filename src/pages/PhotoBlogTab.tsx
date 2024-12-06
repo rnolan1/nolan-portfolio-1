@@ -6,13 +6,16 @@ import Passion from '../assets/RNolan_Photo3Composite_InteractiveWorkshop_thumbn
 const PhotoBlogTab: React.FC = () => {
   return (
     <div className="photo-blog">
+      {/* Photo Blog Headline */}
       <h2>Photo Blog</h2>
-      <p>Maybe add some intro text here.</p>
+      <p>View photos from Assessment 1 and read about the photography process.</p>
+      {/* Photo Gallery */}
       <div className="gallery">
         <img src={AestheticShot} alt="Aesthetic Photo" />
         <img src={Headshot} alt="Headshot Photo" />
         <img src={Passion} alt="Passion Photo" />
       </div>
+      {/* Photo Blog Text */}
       <div className="blog-entries">
       <h3>Shot 1 – Aesthetic</h3>
       <p>This photo was taken at an iconic landmark in natural lighting. There were a decent number of clouds in the

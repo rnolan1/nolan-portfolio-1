@@ -11,9 +11,11 @@ import Draw from '../assets/icon-illustrate.svg';
 function About() {
     return (
     <>
+   {/* Logo */}
     <div className="LogoHeader">
       <img src={Logo2} />
     </div>
+      {/* Introductory Copy */}
       <div className="Intro">
         <img src={Headshot}/>
         <div className="IntroCopy">
@@ -25,6 +27,7 @@ function About() {
         <a href= {Resume} target="blank"><p>Check out my resume here!</p></a>
         </div>
       </div>
+      {/* Animated Icons */}
       <div className="icons center">
         <div className="icon degree">
             <img src={Degree} />
@@ -42,7 +45,7 @@ function About() {
             <img src={Draw} />
         </div>
     </div>
-
+      {/* About Me Copy */}
       <div className="Main">
         <h2>about me</h2>
         <p>I graduated from Maryville University in May 2019 with a BFA in Graphic Design. 

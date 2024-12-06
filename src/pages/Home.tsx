@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
 
-      {/* Main Content */}
+      {/* Intro Section Copy */}
       <section id="home" className="intro-section">
         <h1>
           Hi, I’m <span className="highlighted-text">Rachel</span>
@@ -15,6 +15,7 @@ function Home() {
         <p>
           With 5 years of experience in the advertising industry as a <span className="bolded-text">Graphic + Motion Designer</span>, I bring my own unique blend of creativity and technical expertise to the table.
         </p>
+        {/* Contact Button */}
         <button className="cta-button"><Link to="/Contact">let’s connect!</Link></button>
       </section>
 

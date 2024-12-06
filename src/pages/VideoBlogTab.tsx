@@ -14,8 +14,10 @@ import Practice1 from '../assets/PHOTO-2024-10-30-19-04-11.jpg';
 const VideoBlogTab: React.FC = () => {
   return (
     <div className="video-blog">
+      {/* Video Blog Headline */}
       <h2>Video Blog</h2>
       <p>Take a look behind-the-scenes at the making of the Venture bag product demo video.</p>
+      {/* Product Demo Video Goes Here */}
       <div className="video-gallery">
         <div className="video-item">
           <iframe
@@ -29,6 +31,7 @@ const VideoBlogTab: React.FC = () => {
           ></iframe>
           <p>Product Demo Video (final)</p>
         </div>
+        {/* Video Blog Text */}
         <div className="video-progress">
          <p>Our group created our video over the course of several out-of-class meetings.
             First we met to brainstorm what product we might want to spotlight for our demo video.
@@ -64,6 +67,7 @@ const VideoBlogTab: React.FC = () => {
             After I edited the video, the entire group met and made revisions. We used Handbrake to compress
             our video to a smaller file size.
          </p>
+         {/* Behind-The-Scenes Photos */}
          <h3>Behind-The-Scenes</h3>
          <div className="videoPhoto-gallery">
             <img src={Practice1} />

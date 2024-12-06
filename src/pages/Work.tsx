@@ -8,7 +8,7 @@ import Passion from '../assets/RNolan_Photo3Composite_InteractiveWorkshop_thumbn
 
 
 function Work() {
-  // Define a type for the emoji counts state
+  {/* Emoji Counts State */}
   const [emojiCounts, setEmojiCounts] = useState<{
     heart: number;
     thumbsUp: number;
@@ -31,6 +31,7 @@ function Work() {
   return (
     <div className="container">
       <div className="content-section">
+        {/* Assessment 3 Video Container */}
         <div className="text-section">
           <h1>Assessment 3:<br /> Product Demo Video</h1>
           <button className="Blog-button">
@@ -44,7 +45,7 @@ function Work() {
           </video>
         </div>
       </div>
-
+      {/* Interactive Emoji Reactions */}
       <div className="emoji-reactions">
         <div className="emoji" onClick={() => handleEmojiClick('heart')}>
           ❤️ {emojiCounts.heart}
@@ -59,10 +60,11 @@ function Work() {
           🤢 {emojiCounts.sick}
         </div>
     </div>
+    {/* Assessment 1 Photo Gallery */}
     <div className="container2">
      <div className="container-section2">
       <div className="photo-text-section">
-          <h1>Assessment 2:<br /> Photography</h1>
+          <h1>Assessment 1:<br /> Photography</h1>
           <button className="Blog-button">
             <Link to="/Blog">Check Out Our Blog Post</Link>
           </button>

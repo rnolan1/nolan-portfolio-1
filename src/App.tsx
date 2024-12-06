@@ -37,7 +37,7 @@ function App() {
         <Route path="/nolan-portfolio-1/Work" element={<Work />} />
       </Routes>
       
-      {/* Social Media Links */}
+      {/* Social Media Footer Links */}
       <footer className="social-media">
         <p className='FooterTag'>let's create something amazing together!</p>
         <a href="https://www.linkedin.com/in/rachel-nolan-481490177/" target="_blank" rel="noopener noreferrer">

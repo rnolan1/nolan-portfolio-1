@@ -4,6 +4,7 @@ import './Contact.css';
 function Contact() {
   return (
     <>
+    {/* Contact Form Main Container */}
     <div className="contact-form-container">
       <h2 className="contact-subtitle">DON'T BE SHY...</h2>
       <h1 className="contact-title">say hello</h1>
@@ -41,6 +42,7 @@ function Contact() {
           className="form-textarea"
           required
         ></textarea>
+        {/* Submit Button */}
         <button type="submit" className="form-button">
           Send
         </button>

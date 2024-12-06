@@ -1,4 +1,4 @@
-/* Adjusting layout to display the text and video side by side */
+/* Assessment 3 Video Container Styling */
 .container {
   display: flex;
   flex-direction: column;
@@ -10,10 +10,10 @@
 
 .content-section {
   display: flex;
-  flex-direction: row;  /* Aligns text and video side by side */
+  flex-direction: row;  
   justify-content: center;
   align-items: center;
-  gap: 50px;  /* Adds space between the text and video */
+  gap: 50px;
 }
 
 .text-section {
@@ -28,6 +28,7 @@
   font-size: 2.5rem;
 }
 
+/* Blog Button Styling */
 .Blog-button {
   background-color: #000;
   color: #f9ff4c;
@@ -61,6 +62,7 @@
   align-items: center;
 }
 
+/* Emoji Reactions Styling */
 .emoji-reactions {
   display: flex;
   align-items: right;
@@ -84,7 +86,7 @@
   border-radius: 30px;
 }
 
-/* Photo Section */
+/* Assessment 1 Photo Section */
 .container2 {
   display: grid;
   flex-direction: column;
@@ -103,7 +105,7 @@
   gap: 50px;
 }
 
-/* Text Section */
+/* Photo Text Section */
 .photo-text-section {
   display: flex;
   justify-content: flex-start;

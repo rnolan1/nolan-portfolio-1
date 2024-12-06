@@ -2,12 +2,14 @@
     line-height: 2rem;
 }
 
+/* Logo Styling */
 .LogoHeader {
     max-width: 300px;
     padding-top: 0em;
     margin: 100px auto 40px auto;
   }
 
+/* Introductory Copy Styling */ 
 .Intro {
     max-width: auto;
     color:#ffffff;
@@ -38,6 +40,7 @@
     padding: 40px;
 }
 
+/* Resume Button Styling */
 a:link {
     color:#ffffff;
     text-decoration: underline;
@@ -50,6 +53,7 @@ a:visited {
     color: #ffffff;
 }
 
+/* About Me Copy Styling */
 .Main {
     margin: auto;
     text-align: left;
@@ -62,7 +66,7 @@ a:visited {
     font-weight: bold;
 }
 
-/*Icons*/
+/*Animated Icons Styling*/
 .center {
     position: absolute;
     top: 50%;
@@ -101,6 +105,7 @@ a:visited {
     animation: shake 0.35s;
 }
 
+/* Telling Icons How to Animate */
 @keyframes shake {
     10% {
         transform: rotate(10deg);

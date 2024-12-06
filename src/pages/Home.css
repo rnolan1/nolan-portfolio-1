@@ -1,4 +1,4 @@
-  /* Intro Section */
+  /* Intro Section Copy Styling */
 .intro-section {
     text-align: left;
     padding: 0px 0px 0px 0px;
@@ -6,7 +6,6 @@
     margin: 200px auto;
   }
   
-  /* Other related styles */
   .intro-section h1 {
     font-size: 3.5rem;
     font-weight: bold;
@@ -27,6 +26,7 @@
     margin: 20px auto;
   }
   
+  /* Contact Button Styling */
   .cta-button {
     background-color: #000;
     color: #fff;
@@ -45,7 +45,7 @@
     background-color: #ff32b7;
   }
   
-/* Brand Logos Section */
+/* Brand Logos Section Styling */
 .brands {
     text-align: left;
     margin: 50px auto;

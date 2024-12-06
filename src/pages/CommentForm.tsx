@@ -10,13 +10,14 @@ const CommentForm: React.FC<CommentFormProps> = ({ onSubmit }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (comment.trim()) {
-      onSubmit(comment); // Submit the comment to the parent component
-      setComment(''); // Reset the comment input field
+      onSubmit(comment); 
+      setComment(''); 
     }
   };
 
   return (
     <form onSubmit={handleSubmit} className="comment-form">
+      {/* Placeholder Text */}
       <textarea
         value={comment}
         onChange={(e) => setComment(e.target.value)}
@@ -24,6 +25,7 @@ const CommentForm: React.FC<CommentFormProps> = ({ onSubmit }) => {
         rows={4}
         className="comment-input"
       />
+      {/* Submit Comment Button */}
       <button type="submit" className="submit-comment-button">
         Submit
       </button>
